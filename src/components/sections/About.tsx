@@ -54,9 +54,10 @@ export default function About() {
 
                         <div className="pt-8">
                             <a
-                                href="/resume.pdf"
+                                href="https://drive.google.com/file/d/1onnGhtZT-TCh1lgFzBN1sK__KoYuYwjo/view?usp=drive_link"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/50 hover:bg-purple-500/20 hover:scale-105 hover:glow-purple transition-all duration-300 font-medium tracking-wide"
-                                download
                             >
                                 <Download className="w-5 h-5" />
                                 Download Resume

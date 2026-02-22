@@ -27,7 +27,7 @@ export default function Hero() {
                         </h2>
                         <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-black mb-6 tracking-tight">
                             Hi, I&apos;m{" "}
-                            <span className="text-gradient-cyan-blue block mt-2 text-transparent bg-clip-text drop-shadow-[0_0_15px_rgba(0,255,255,0.4)]">
+                            <span className="text-gradient-cyan-blue block mt-2 pr-2 text-transparent bg-clip-text drop-shadow-[0_0_15px_rgba(0,255,255,0.4)]">
                                 Leelavenkatesh
                             </span>
                         </h1>

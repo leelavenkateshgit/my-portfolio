@@ -48,7 +48,7 @@ export default function Navbar() {
                     initial={{ y: -100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className={`flex items-center justify-between mx-auto rounded-full px-6 py-3 transition-all duration-300 ${isScrolled ? "glass-card max-w-4xl" : "bg-transparent max-w-6xl"
+                    className={`flex items-center justify-between mx-auto rounded-full px-6 py-3 transition-all duration-300 ${isScrolled ? "glass-card bg-black/60 backdrop-blur-lg border border-white/10 max-w-4xl" : "bg-transparent max-w-6xl"
                         }`}
                 >
                     {/* Logo */}
@@ -96,7 +96,7 @@ export default function Navbar() {
                             initial={{ opacity: 0, y: -20 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -20 }}
-                            className="md:hidden absolute top-full left-4 right-4 mt-2 glass-card rounded-2xl overflow-hidden"
+                            className="md:hidden absolute top-full left-4 right-4 mt-2 bg-black/95 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden"
                         >
                             <div className="flex flex-col py-4">
                                 {navLinks.map((link) => (

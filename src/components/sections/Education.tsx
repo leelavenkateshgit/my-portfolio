@@ -76,21 +76,23 @@ export default function Education() {
                             <div className="glass-card p-6 rounded-2xl border border-white/5 hover:border-purple-500/30 transition-all duration-300 group">
                                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
                                     <h3 className="text-2xl font-bold font-heading text-gray-100 group-hover:text-purple-400 transition-colors">
-                                        Full Stack & AI Developer
+                                        Applied AI (AICTE) – Virtual Intern
                                     </h3>
                                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 text-purple-300 text-sm font-medium whitespace-nowrap hidden sm:flex">
                                         <Calendar className="w-4 h-4" />
-                                        Present
+                                        Dec 2025 – Jan 2026
                                     </div>
                                 </div>
 
                                 <h4 className="text-lg text-cyan-400 font-medium mb-4">
-                                    Independent / Open Source
+                                    IBM SkillsBuild
                                 </h4>
 
-                                <p className="text-gray-400 leading-relaxed">
-                                    Building and deploying modern web applications using the Next.js ecosystem. Exploring integrations of AI models into practical tools to enhance developer and user workflows.
-                                </p>
+                                <ul className="text-gray-400 leading-relaxed list-disc list-inside space-y-2">
+                                    <li>Built project-based workflows with Python and Google Colab for data analysis and AI.</li>
+                                    <li>Worked on small AI-related exercises involving data handling and analysis.</li>
+                                    <li>Documented project outcomes, approaches, and key learnings for evaluation and review.</li>
+                                </ul>
                             </div>
                         </motion.div>
                     </div>

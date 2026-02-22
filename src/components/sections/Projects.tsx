@@ -6,26 +6,26 @@ import Image from "next/image";
 
 const projects = [
     {
-        title: "AI Image Generator",
-        description: "A futuristic web app that leverages open-source AI models to generate high-quality images from text prompts. Features a neon dark theme and seamless user experience.",
-        image: "/project1.jpg", // Placeholder for actual image
-        tags: ["Next.js", "Python", "Stable Diffusion", "Tailwind CSS"],
+        title: "Learning Management System",
+        description: "Built a responsive web application using HTML, CSS, JavaScript, React.js, and Node.js. Developed REST APIs to manage user data and implemented basic authentication for secure access. Designed clean and intuitive interfaces to improve navigation and usability.",
+        image: "/project1.jpg",
+        tags: ["React.js", "Node.js", "JavaScript", "HTML/CSS"],
         liveUrl: "#",
         githubUrl: "#",
     },
     {
-        title: "E-Commerce Dashboard",
-        description: "A comprehensive admin dashboard for e-commerce platforms with real-time analytics, inventory management, and beautiful data visualization using charts.",
+        title: "Weather Application",
+        description: "Developed a dynamic weather application using JavaScript with REST API integration. Implemented city-based search functionality to fetch and display real-time temperature.",
         image: "/project2.jpg",
-        tags: ["React", "Node.js", "MongoDB", "Framer Motion"],
+        tags: ["JavaScript", "REST API", "HTML", "CSS"],
         liveUrl: "#",
         githubUrl: "#",
     },
     {
-        title: "Vignan Student Hub",
-        description: "A centralized platform for Vignan students to access resources, track attendance, and connect with peers. Includes authentication and real-time updates.",
+        title: "Tic Tac Toe Game",
+        description: "Developed an interactive web-based game using HTML, CSS, and JavaScript. Implemented complete game logic, including win detection, draw conditions, and turn management.",
         image: "/project3.jpg",
-        tags: ["Next.js", "Firebase", "TypeScript", "Tailwind CSS"],
+        tags: ["HTML", "CSS", "JavaScript"],
         liveUrl: "#",
         githubUrl: "#",
     },

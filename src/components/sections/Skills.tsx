@@ -58,23 +58,6 @@ export default function Skills() {
                                         </div>
                                         <span className="font-semibold text-lg text-gray-200">{skill.name}</span>
                                     </div>
-                                    <span className="text-cyan-400 font-mono font-bold group-hover:glow-cyan">
-                                        {skill.level}%
-                                    </span>
-                                </div>
-
-                                {/* Progress Bar Background */}
-                                <div className="h-3 w-full bg-white/5 rounded-full overflow-hidden border border-white/5">
-                                    {/* Animated Progress Fill */}
-                                    <motion.div
-                                        initial={{ width: 0 }}
-                                        whileInView={{ width: `${skill.level}%` }}
-                                        viewport={{ once: true }}
-                                        transition={{ duration: 1.5, delay: index * 0.1 + 0.3, ease: "easeOut" }}
-                                        className={`h-full ${skill.color} rounded-full relative`}
-                                    >
-                                        <div className="absolute inset-0 bg-white/20 animate-pulse" />
-                                    </motion.div>
                                 </div>
                             </motion.div>
                         ))}
